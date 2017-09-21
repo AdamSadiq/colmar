@@ -396,8 +396,8 @@ body{
 }
 /*FOOTER*/
 
-/* BEGIN PHONE VIEW w470 */
-@media only screen and (max-width: 470px){
+/* BEGIN PHONE VIEW w500 */
+@media only screen and (max-width: 500px){
 /* HEADER */
 #bannername{
   display: none;
