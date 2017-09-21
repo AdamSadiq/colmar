@@ -1,0 +1,607 @@
+body{
+  font-family: "Josefin Sans";
+}
+
+/*TOP BANNER*/
+#bannerholder{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+#banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+#bannerleft{
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  margin-left: 18px;
+  align-items: center;
+}
+
+.bannerlogo{
+  height: 40px;
+}
+
+.mobileicons{
+  display: none;
+}
+
+#bannername{
+  color: rgba(0, 0, 0, .6);
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+#bannercolmar{
+  font-weight: bold;
+  color: black;
+}
+
+#bannerright{
+  display: flex;
+  height: 32px;
+  margin-right: 24px;
+  align-items: center;
+}
+
+#bannerlist{
+  display: flex;
+  flex-direction: row;
+}
+
+.bannerlistitem{
+  display: inline-block;
+  margin-left: 16px;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  padding: 4px 0;
+  transition: all 150ms ease-in;
+}
+
+.bannerlistitem:hover {
+  border: 1px solid rgba(0, 0, 0, .2);
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #0099cc;
+}
+/*TOP BANNER*/
+/*SECTION ONE*/
+.seconetwofour{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+  height: 736px;
+  background-color: rgb(194, 203, 212);
+}
+
+.secone{
+  padding-top: 24px;
+}
+
+.secbigpic{
+  width: 60%;
+  margin: 0 24px;
+}
+
+#secbigpic{
+  width: 100%;
+  height: 80%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: 1px solid rgba(0,0,0,.6);
+  border-radius: 5px;
+}
+
+#seconetext{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  width: 30%;
+  margin-left: 24px;
+  color: rgb(46, 50, 53);
+}
+
+#seconelearn{
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+#seconelorem{
+  font-size: 24px;
+  color: rgba(46, 50, 53, .7);
+  margin-bottom: 12px;
+}
+
+#startbutton{
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 8px;
+}
+
+#seconestart{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(46, 50, 53);
+  border-radius: 10px;
+  padding: 8px 100px;
+  border: 1px solid rgba(0, 0, 0, .4);
+  transition: all 400ms;
+}
+
+#seconestart:hover{
+  background-color: #0099cc;
+  color: black;
+}
+/*SECTION ONE*/
+/*SECTION TWO*/
+#seconetwotwo{
+  background-color: white;
+  margin-bottom: 0px;
+  height: 672px;
+}
+
+#secbigpictwo{
+  display: flex;
+  flex-direction: column;
+}
+
+.picexample{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 22%;
+  padding-left: 18px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  transition: background-color 250ms ease-in;
+}
+
+.picexample:hover{
+  background-color: #66d9ff;
+}
+
+#studyingman{
+  width: 100%;
+  height: auto;
+  margin-top: 32px;
+  border: 1px solid rgba(0,0,0,.6);
+  border-radius: 5px;
+}
+
+#doesnthurt{
+  font-size: 40px;
+  margin: 32px 0 24px 0;
+  color: rgb(46, 50, 53);
+  margin-bottom: 8px;
+}
+
+.normaltext, #quotesource{
+  color: rgba(46, 50, 53, .7);
+}
+
+.multpics{
+  width: 40%;
+  align-items: center;
+  margin-top: 24px;
+}
+
+#walkingpic{
+  padding-top: 24px;
+  border-top: 1px solid gray;
+}
+
+.picexamplepic{
+  width: 35%;
+  height: auto;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 100px;
+}
+
+.picexamplepicmobile{
+  display: none;
+}
+
+.picexampletexthold{
+  margin-left: 12px;
+  width: 65%;
+}
+
+.picexampleheader{
+  font-size: 32px;
+  color: rgb(46, 50, 53);
+  margin-bottom: 8px;
+}
+
+.picexampletext{
+  font-size: 17px;
+  margin-bottom: 8px;
+  color: rgba(46, 50, 53, .7);
+}
+
+.picexamplelink{
+  text-decoration: none;
+}
+
+.picexamplebottwo{
+  padding-top: 24px;
+}
+/*SECTION TWO*/
+/*SECTION THREE*/
+#secthree{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 800px;
+  background-color: rgb(194, 203, 212);
+}
+
+.pixtwobythree{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 64px;
+  margin-right: 72px;
+  width: 100%;
+}
+
+.pixtwobythreerow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.secheader{
+  font-size: 48px;
+  text-align: center;
+  margin: 32px 0;
+  color: rgb(46, 50, 53);
+  font-weight: 700;
+}
+
+.courses{
+  width: 70%;
+  height: auto;
+}
+
+.coursepic{
+  width: inherit;
+}
+
+.courseinfo{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: inherit;
+  margin-top: -18px;
+  background-color: white;
+  height: 160px;
+  transition: background-color 250ms ease-in;
+}
+
+.courseinfo:hover{
+  background-color: #66d9ff;
+}
+
+.coursepic, .courseinfo{
+  border: 1px solid rgba(0,0,0,.5);
+}
+
+.coursename, .coursetext{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.coursename{
+  font-size: 24px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: rgb(46, 50, 53);
+}
+
+.coursenamemobilehold{
+  display: none;
+}
+
+.coursetext{
+  font-size: 15px;
+  color: rgba(46, 50, 53,.8);
+  margin-bottom: 12px;
+}
+
+.coursetextbot{
+  font-size: 14px;
+  padding-bottom: 24px;
+}
+/*SECTION THREE*/
+/*SECTION FOUR*/
+#secfour{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  background-color: white;
+}
+
+.secfourheader{
+  font-size: 48px;
+}
+
+.secfourtophead{
+  margin-bottom: 0px;
+}
+
+.secfourheader, #thesisurbantext{
+  margin-top: -16px;
+}
+
+#thesisurbantext{
+  margin-top: 6px;
+}
+
+.secfourbot{
+  background-color: white;
+}
+
+.picexamplesecfour{
+  border: none;
+  margin-top: 12px;
+  height: 30%;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.secfourtexthold{
+  margin-top: 32px;
+}
+
+.picexamplepicfour{
+  margin-top: 18px;
+}
+/*SECTION FOUR*/
+/*FOOTER*/
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid gray;
+  height: 48px;
+  font-size: 14px;
+}
+
+.footerright{
+  display: flex;
+  flex-direction: row;
+}
+
+.footerright a{
+  text-decoration: none;
+  margin-right: 24px;
+  display: inline;
+}
+/*FOOTER*/
+
+/* BEGIN PHONE VIEW w470 */
+@media only screen and (max-width: 470px){
+/* HEADER */
+#bannername{
+  display: none;
+}
+
+#bannerright{
+  display: none;
+}
+
+#bannerleft{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobileicons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bannerlogo{
+  margin-left: -16px;
+  margin-top: -26px;
+  height: 32px;
+}
+
+#bannerholder{
+  height: 32px;
+}
+/*HEADER*/
+/*SEC ONE*/
+.seconetwofour{
+  flex-direction: column;
+  width: 470px;
+  height: 736px;
+}
+
+#secbigpic{
+  width: 470px;
+  height: auto;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+#seconetext{
+  margin-top: 16px;
+  width: 95%;
+  text-align: center;
+  justify-content: center;
+  margin-left: 0;
+}
+
+#startbutton{
+  margin-left: 17%;
+}
+
+#seconelearn{
+  margin-top: 32px;
+}
+/*SEC ONE*/
+/*SEC TWO*/
+#seconetwotwo{
+  height: 1000px;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+#secbigpictwo{
+  display: none;
+}
+
+.multpics{
+  margin-top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.picexample{
+  flex-direction: column;
+  border: none;
+  width: 100%;
+  height: 333px;
+  padding-bottom: 32px;
+}
+
+#walkingpic{
+  border: none;
+  padding-top: 32px;
+}
+
+.picexamplepic{
+  display: none;
+}
+
+.picexamplepicmobile{
+  display: inline;
+  height: auto;
+  width: 80%;
+}
+
+.picexampletexthold{
+  margin-top: 12px;
+  text-align: center;
+}
+
+.picexampleheader{
+  font-size: 24px;
+}
+
+.picexampletext{
+  font-size: 16px;
+}
+
+.picexamplelink{
+  font-size: 14px;
+}
+/*SEC TWO*/
+/*SEC THREE*/
+#secthree{
+  background-color: white;
+  height: 600px;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+#startlearning{
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+.coursepic, .courseinfo{
+  display: none;
+}
+
+.coursenamemobilehold{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 85%;
+  margin-top: 48px;
+}
+
+.coursenamemobile{
+  font-size: 28px;
+  padding:  16px 0 16px 16px;
+  margin-left: 18%;
+  margin-bottom: 16px;
+  background-color: rgb(194, 203, 212);
+  font-weight: 700;
+  transition: background-color 250ms ease-in;
+}
+
+.coursenamemobile:hover{
+  background-color: #66d9ff;
+}
+/*SEC THREE*/
+/*SEC FOUR*/
+#secfour{
+  height: 400px;
+}
+
+.bigtext{
+  margin: 0px;
+}
+
+.secbigpic{
+  margin: 0;
+}
+
+.secfourbot{
+  margin-top: 0px;
+  height: 300px;
+}
+
+.secfourheader, #thesisurbantext{
+  display: none;
+}
+
+.picexamplesecfour{
+  display: none;
+}
+
+.secvid{
+  width: 100%;
+  margin-top: -76px;
+}
+
+.footertext{
+  margin-left: 16px;
+}
+
+.footerright{
+  display: none;
+}
+
+
+
+
+
+
+
+/*SEC FOUR*/
